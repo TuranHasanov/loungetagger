@@ -1,17 +1,17 @@
 {
-  "name": "Lounge Tagger Bot",
+  "name": "Wollf Tagger Bot",
   "logo":"https://telegra.ph/file/dfa517fd00b6aca5f7ac9.jpg",
   "description": "Lounge tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
-    "TOKEN": {
+    "TOKEN": { 5054278764:AAEY4CvjrkzSOhaeS-_AdLrPHAoGCDcFSUw
       "description": "bot token girin.",
       "value": ""
     },
-    "APP_ID": {
+    "APP_ID": { 5054278764
       "description": "@otomytelegrambot dan api hash api id alınız.",
       "value": ""
     },
-    "API_HASH": {
+    "API_HASH": {999a64e43ef2d4dc98af4ef69ccd7ade
       "description": "@otomytelegrambot dan api hash api id alınız.",
       "value": ""
     }
