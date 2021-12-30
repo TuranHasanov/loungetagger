@@ -10,9 +10,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("5054278764"))
-api_hash = os.environ.get("999a64e43ef2d4dc98af4ef69ccd7ade")
-bot_token = os.environ.get("5054278764:AAEY4CvjrkzSOhaeS-_AdLrPHAoGCDcFSUw")
+api_id = int(os.environ.get("12369013"))
+api_hash = os.environ.get("fae9b49cfcd0d6bc66ac34a5fddf00e9")
+bot_token = os.environ.get("5089124148:AAGJEB708NZcK34NctjTcqptYCHn178Jpu4")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
@@ -27,9 +27,9 @@ async def cancel(event):
 async def start(event):
   await event.reply("**wolfftaggerbot Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/loungetaggerbot?startgroup=a'),
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'http://t.me/WolfftaggerBot?startgroup=a'),
                       Button.url('📣 Support', 'https://t.me/WolffSupport'),
-                      Button.url('🚀 Sahibim', 'https://t.me/Rahatbirakinaq')]
+                      Button.url('🚀 Sahibim', 'https://t.me/BenTurannn')]
                     ),
                     link_preview=False
                    )
@@ -38,9 +38,9 @@ async def help(event):
   helptext = "**Loungetagger bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n`Örnek: /all Günaydın!`  \nBu komutu yanıt olarak kullanabilirsiniz. herhangi bir mesaj Bot, yanıtlanan iletiye kullanıcıları etiketleyecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/loungetaggerbot?startgroup=a'),
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'http://t.me/WolfftaggerBot?startgroup=a'),
                        Button.url('📣 Support', 'https://t.me/WolffSupport'),
-                      Button.url('🚀 Sahibim', 'https://t.me/Rahatbirakinaq')]
+                      Button.url('🚀 Sahibim', 'https://t.me/BenTurannn')]
                     ),
                     link_preview=False
                    )
