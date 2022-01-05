@@ -3,16 +3,15 @@
   "logo":"https://telegra.ph/file/dfa517fd00b6aca5f7ac9.jpg",
   "description": "Lounge tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
-    "TOKEN": {5089124148:AAGJEB708NZcK34NctjTcqptYCHn178Jpu4
+    "TOKEN": {
       "description": "bot token girin.",
       "value": ""
     },
-    "APP_ID": { 12369013
+    "APP_ID": { 
       "description": "@otomytelegrambot dan api hash api id alınız.",
       "value": ""
     },
-    "API_HASH": {fae9b49cfcd0d6bc66ac34a5fddf00e9
-      "description": "@otomytelegrambot dan api hash api id alınız.",
+    "API_HASH": {      "description": "@otomytelegrambot dan api hash api id alınız.",
       "value": ""
     }
   },
