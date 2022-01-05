@@ -10,9 +10,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("12369013"))
-api_hash = os.environ.get("fae9b49cfcd0d6bc66ac34a5fddf00e9")
-bot_token = os.environ.get("5089124148:AAGJEB708NZcK34NctjTcqptYCHn178Jpu4")
+api_id = int(os.environ.get("6473933"))
+api_hash = os.environ.get("999a64e43ef2d4dc98af4ef69ccd7ade)
+bot_token = os.environ.get("5096633933:AAHSCzY04vXJ8DRi3WH-0RA09_-ikXpiNzQ")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
@@ -29,7 +29,7 @@ async def start(event):
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'http://t.me/WolfftaggerBot?startgroup=a'),
                       Button.url('📣 Support', 'https://t.me/WolffSupport'),
-                      Button.url('🚀 Sahibim', 'https://t.me/BenTurannn')]
+                      Button.url('🚀 Sahibim', 'https://t.me/TuranHasanov')]
                     ),
                     link_preview=False
                    )
@@ -40,7 +40,7 @@ async def help(event):
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'http://t.me/WolfftaggerBot?startgroup=a'),
                        Button.url('📣 Support', 'https://t.me/WolffSupport'),
-                      Button.url('🚀 Sahibim', 'https://t.me/BenTurannn')]
+                      Button.url('🚀 Sahibim', 'https://t.me/TuranHasanov')]
                     ),
                     link_preview=False
                    )
